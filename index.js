@@ -69,7 +69,7 @@ app.put('/api/products/:id', async (req, res) => {
  }  
 })
 
-mongoose.connect("mongodb+srv://muhammadnumanarif04:p3K7ucmtHXNpUiox@cluster0.bqma6xg.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Cluster0", ).then(()=>{
+mongoose.connect("", ).then(()=>{
   console.log("Connected to MongoDB successfully");
   app.listen(3000, () => {
     console.log('Server is running on http://localhost:3000');
